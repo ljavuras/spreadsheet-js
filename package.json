@@ -64,10 +64,6 @@
     "webpack-dev-server": "^3.10.2",
     "webpack-merge": "^4.1.4"
   },
-  "dependencies": {
-    "opencollective": "^1.0.3",
-    "opencollective-postinstall": "^2.0.2"
-  },
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/x-spreadsheet"

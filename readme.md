@@ -11,7 +11,7 @@
 
 A web-based JavaScript spreadsheet.
 
-spreadsheet-js is forked from x-spreadsheet.
+spreadsheet-js is forked from [x-spreadsheet](https://github.com/myliang/x-spreadsheet).
 
 <p align="center">
   <a href="https://github.com/myliang/x-spreadsheet">

@@ -1,7 +1,7 @@
 {
-  "name": "x-data-spreadsheet",
-  "version": "1.1.8",
-  "description": "a javascript xpreadsheet",
+  "name": "spreadsheet-js",
+  "version": "0.0.1",
+  "description": "A javascript spreadsheet",
   "types": "src/index.d.ts",
   "main": "src/index.js",
   "files": [
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/myliang/x-spreadsheet.git"
+    "url": "https://github.com/ljavuras/x-spreadsheet.git"
   },
   "nyc": {
     "all": true,
@@ -64,8 +64,4 @@
     "webpack-dev-server": "^3.10.2",
     "webpack-merge": "^4.1.4"
   },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/x-spreadsheet"
-  }
 }

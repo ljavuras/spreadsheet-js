@@ -1,7 +1,7 @@
 {
-  "name": "x-data-spreadsheet",
-  "version": "1.1.8",
-  "description": "a javascript xpreadsheet",
+  "name": "spreadsheet-js",
+  "version": "0.0.1",
+  "description": "A javascript spreadsheet",
   "types": "src/index.d.ts",
   "main": "src/index.js",
   "files": [
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/myliang/x-spreadsheet.git"
+    "url": "https://github.com/ljavuras/x-spreadsheet.git"
   },
   "nyc": {
     "all": true,
@@ -31,8 +31,7 @@
     "build-locale": "webpack --config build/webpack.locale.js",
     "lint": "./node_modules/eslint/bin/eslint.js src",
     "test": "nyc ./node_modules/mocha/bin/mocha --require @babel/register --recursive test",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov -t 31ecdb12-8ecb-46f7-a486-65c2516307dd",
-    "postinstall": "opencollective-postinstall"
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov -t 31ecdb12-8ecb-46f7-a486-65c2516307dd"
   },
   "keywords": [
     "javascript",
@@ -63,9 +62,5 @@
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.10.2",
     "webpack-merge": "^4.1.4"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/x-spreadsheet"
   }
 }

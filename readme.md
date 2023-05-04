@@ -11,15 +11,15 @@ npm install ljavuras/spreadsheet-js
 ```
 
 ```html
-<div id="x-spreadsheet-demo"></div>
+<div id="spreadsheet-js-demo"></div>
 ```
 
 ```javascript
 import Spreadsheet from "spreadsheet-js";
 // If you need to override the default options, you can set the override
 // const options = {};
-// new Spreadsheet('#x-spreadsheet-demo', options);
-const s = new Spreadsheet("#x-spreadsheet-demo")
+// new Spreadsheet('#spreadsheet-js-demo', options);
+const s = new Spreadsheet("#spreadsheet-js-demo")
   .loadData({}) // load data
   .change(data => {
     // save data to db
@@ -71,7 +71,7 @@ s.validate()
 ## Bind events
 
 ```javascript
-const s = new Spreadsheet("#x-spreadsheet-demo")
+const s = new Spreadsheet("#spreadsheet-js-demo")
 // event of click on cell
 s.on('cell-selected', (cell, ri, ci) => {});
 s.on('cells-selected', (cell, { sri, sci, eri, eci }) => {});
@@ -82,7 +82,7 @@ s.on('cell-edited', (text, ri, ci) => {});
 ## update cell-text
 
 ```javascript
-const s = new Spreadsheet("#x-spreadsheet-demo")
+const s = new Spreadsheet("#spreadsheet-js-demo")
 // cellText(ri, ci, text, sheetIndex = 0)
 s.cellText(5, 5, 'xxxx').cellText(6, 5, 'yyy').reRender();
 ```
@@ -90,7 +90,7 @@ s.cellText(5, 5, 'xxxx').cellText(6, 5, 'yyy').reRender();
 ## get cell and cell-style
 
 ```javascript
-const s = new Spreadsheet("#x-spreadsheet-demo")
+const s = new Spreadsheet("#spreadsheet-js-demo")
 // cell(ri, ci, sheetIndex = 0)
 s.cell(ri, ci);
 // cellStyle(ri, ci, sheetIndex = 0)

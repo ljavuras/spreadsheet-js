@@ -1,4 +1,4 @@
-mkdir x-spreadsheet && cd x-spreadsheet
+mkdir spreadsheet-js && cd spreadsheet-js
 npm init -y
 npm install webpack webpack-cli --save-dev
 

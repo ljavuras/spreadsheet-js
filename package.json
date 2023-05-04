@@ -1,6 +1,6 @@
 {
   "name": "spreadsheet-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A javascript spreadsheet",
   "types": "src/index.d.ts",
   "main": "src/index.js",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ljavuras/x-spreadsheet.git"
+    "url": "https://github.com/ljavuras/spreadsheet-js.git"
   },
   "nyc": {
     "all": true,
@@ -44,7 +44,7 @@
     "@babel/preset-env": "^7.3.4",
     "@babel/register": "^7.0.0",
     "babel-loader": "^8.0.5",
-    "clean-webpack-plugin": "^0.1.19",
+    "clean-webpack-plugin": "^4.0.0",
     "codecov": "^3.3.0",
     "css-loader": "^1.0.0",
     "eslint": "^6.8.0",

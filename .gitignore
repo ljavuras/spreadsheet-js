@@ -1,4 +1,8 @@
-node_modules
-yarn.lock
+# Built distribution
+dist/
 
-.nyc_output/*
+# Node modules
+node_modules/
+
+# Test & coverage
+.nyc_output/

@@ -6,7 +6,7 @@
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body onload="load()">
-  <div id="x-spreadsheet-demo"></div>
+  <div id="spreadsheet-js-demo"></div>
   <script>
     function load(){
       const rows10 = { len: 1000 };
@@ -50,7 +50,7 @@
       previewEl.width = 16
       previewEl.height = 16
 
-      var xs = x_spreadsheet('#x-spreadsheet-demo', {
+      var xs = x_spreadsheet('#spreadsheet-js-demo', {
         showToolbar: true,
         showGrid: true,
         showBottomBar: true,
